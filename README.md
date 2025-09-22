@@ -1,4 +1,4 @@
-# Vite + React + TypeScript Boilerplate
+# tailwind-v4-boilerplate
 
 This project is a boilerplate for web applications built with a modern technology stack.
 
