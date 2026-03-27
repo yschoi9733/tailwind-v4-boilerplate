@@ -1,48 +1,53 @@
-# tailwind-v4-boilerplate
+# 🚀 Tailwind CSS v4 + React 19 Boilerplate
 
-This project is a boilerplate for web applications built with a modern technology stack.
+Vite, TypeScript, React 19, 그리고 **Tailwind CSS v4**를 기반으로 한 초경량·고성능 프론트엔드 보일러플레이트입니다.
 
-## ✨ Features
+## ✨ Key Features
 
-- **Framework**: [React](https://react.dev/)
-- **Build Tool**: [Vite](https://vitejs.dev/)
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **Linting**: [ESLint](https://eslint.org/)
-- **Formatting**: [Prettier](https://prettier.io/)
+- **Framework**: [React 19](https://react.dev/) (최신 버전의 런타임 최적화)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) (Vite 플러그인 기반의 초고속 엔진)
+- **Build Tool**: [Vite 7+](https://vitejs.dev/)
+- **Language**: [TypeScript 5+](https://www.typescriptlang.org/)
+- **Linting & Formatting**: [ESLint 10+](https://eslint.org/) & [Prettier 3+](https://prettier.io/)
+- **Optimized Dependencies**: 런타임(`dependencies`)과 개발환경(`devDependencies`) 패키지를 완벽하게 분리하여 빌드 최적화 완료
 
-## 🚀 Getting Started
-
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+## 🛠️ Getting Started
 
 ### Prerequisites
 
-You need to have [Node.js](https://nodejs.org/) and [Yarn](https://yarnpkg.com/) installed on your machine.
+- [Node.js](https://nodejs.org/) (LTS 권장)
+- [Yarn](https://yarnpkg.com/) (패키지 매니저)
 
 ### Installation
 
-After cloning the repository, navigate to the project directory and install the dependencies using Yarn.
+프로젝트를 클론한 후 의존성을 설치합니다.
 
 ```bash
 yarn install
 ```
 
-### Running the Development Server
+### Development
 
-To start the development server, run the following command:
+개발 서버를 실행합니다.
 
 ```bash
 yarn dev
 ```
 
-This will start the application in development mode. Open [http://localhost:5173](http://localhost:5173) (or the port specified in your terminal) to view it in the browser. The page will reload if you make edits.
+브라우저에서 [http://localhost:5173](http://localhost:5173)을 열어 확인하세요.
 
 ## 📜 Available Scripts
 
-In the project directory, you can run:
+- `yarn dev`: 개발 서버 실행 (HMR 지원)
+- `yarn build`: 운영용 빌드 생성 (`dist/` 폴더)
+- `yarn preview`: 빌드된 결과물 로컬 미리보기
+- `yarn lint`: ESLint를 이용한 코드 정적 분석
+- `yarn format`: Prettier를 이용한 코드 스타일 자동 교정
 
--   `yarn dev`: Runs the app in the development mode.
--   `yarn build`: Builds the app for production to the `dist` folder.
--   `yarn lint`: Lints the codebase using ESLint.
--   `yarn preview`: Serves the production build locally to preview it.
--   `yarn format`: Formats the code using Prettier.
+## 💡 Why Tailwind CSS v4?
+
+Tailwind v4는 더 이상 별도의 `tailwind.config.js`가 필수적이지 않으며, Vite 플러그인을 통해 훨씬 더 빠른 빌드 속도와 직관적인 설정을 제공합니다. 이 보일러플레이트는 `@tailwindcss/vite` 플러그인을 사용하여 최상의 개발 경험을 제공하도록 설정되어 있습니다.
+
+---
+**Last Updated**: 2026년 3월 25일  
+Created with ❤️ by Gemini CLI
